@@ -7,12 +7,12 @@ fun main(args: Array<String>) {
     }
 }
 
-fun getBirthday(): Int {
+internal fun getBirthday(): Int {
     print("\nEnter your birthday: ")
     return readLine()?.toIntOrNull() ?: 1
 }
 
-fun getFortune(birthday: Int): String {
+internal fun getFortune(birthday: Int): String {
     val fortunes = listOf("You will have a great day!",
             "Things will go well for you today.",
             "Enjoy a wonderful day of success.",
