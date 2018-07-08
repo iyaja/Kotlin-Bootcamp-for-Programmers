@@ -1,7 +1,7 @@
 import java.lang.Math.random
 import java.util.*
 
-fun main (args: Array<String) {
+fun main (args: Array<String>) {
 
 }
 
